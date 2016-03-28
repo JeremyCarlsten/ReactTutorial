@@ -4,7 +4,7 @@
   "description": "Following a tutorial on pluralsight",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel js -d dist --presets react"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/JeremyCarlsten/ReactTutorial#readme",
   "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-react": "^6.5.0",
     "bootstrap": "^3.3.6",
     "jquery": "^2.2.2",
     "react": "^0.14.7",
