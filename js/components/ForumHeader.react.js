@@ -1,10 +1,6 @@
 var ForumHeader = React.createClass({
 
     render: function () {
-
-        console.log(this.props.allAnswers);
-
-
         return (
             <nav className="navbar navbar-default">
                 <div className="container-fluid">

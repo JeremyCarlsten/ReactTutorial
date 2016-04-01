@@ -1,0 +1,3 @@
+
+var ForumDispatcher = new Dispatcher();
+
